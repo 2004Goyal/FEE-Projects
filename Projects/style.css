@@ -1,0 +1,167 @@
+    /* CSS Reset */
+    body {
+        font-family: 'Playball', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: url('https://wallpapercave.com/wp/wp4846361.jpg');
+        background-size: 125%;
+        background-repeat: no-repeat;
+    }
+
+    .logo {
+        margin-left: 65px;
+    }
+
+    .left {
+        font-family: 'Playball', cursive;
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 60px;
+        height: 60px;
+        filter: invert(20%);
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 29px auto;
+
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Playball', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 3px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 70%;
+        margin-right: 0px;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Playball', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        backdrop-filter: blur(60px);
+    }
+
+    .container h1 {
+        text-align: center;
+        color: rgb(227, 227, 255);
+    }
+
+    #us {
+        margin-left: 40px;
+        font-size: x-large;
+        font-weight: bold;
+        color: rgb(141, 141, 141)
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+
+    }
+
+    .social {
+        position: relative;
+        z-index: 2;
+        padding-bottom: 40px;
+    }
+
+    .social a {
+        display: inline-block;
+        color: white;
+        margin-left: 25px;
+        font-size: 50px;
+    }
+
+    .social a:hover {
+        transform: scale(1.3);
+        transition: .8s;
+        color: white;
+    }
+
+    #offer{
+        font-family: 'Playboy', cursive;
+        float:right;
+        border:0px;
+        border-image-width: 5px;
+        font-weight: bolder;
+        margin: 106px 80px;
+        font-size: xx-large;
+        /* padding: 55px; */
+        padding-right: 5105px;
+        width: 33%;
+    }
