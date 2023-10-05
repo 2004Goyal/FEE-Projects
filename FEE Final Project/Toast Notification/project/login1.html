@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <script>function myFunction() {
+        var x = document.getElementById("click");
+        x.className = "show";
+      
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      }</script>
+</head>
+<body>
+    <div class="nav">
+        <div class="link" style="display: inline-block; margin-left: 75%;margin-top: 1.8%; text-decoration: none;"><a href="index.html">🏠Home </a></div>
+        <div class="link" style="display: inline-block; padding-left: 15px;">  <a href="login.html">🙎‍♂️Login</a></div>
+        <div class="link"  style="display: inline-block; padding-left: 15px;"><a href="contact.html">📞Contact  </a></div>
+        <div class="link" style="display: inline-block; text-decoration: none;padding-left: 15px;"><a href="aboutus.html">About us  </a></div>
+  
+    </div>
+    <br>
+    <DIV class="login-div">
+        <a href="login.html">
+            <div class="signup">
+                Sign-up
+            </div>
+        </a>
+        <a href="login1.html">
+        <div class="login">
+            Login
+        </div>
+        </a>
+        <hr color="black">
+        <p style="font-size: larger; margin-left: 5%;">Sign-in :</p>
+        <form action="" style="margin-left: 5%;">
+            username: <input type="text" placeholder="username" required><br><br>
+            password: <input type="password" placeholder="password" required><br><br>
+
+
+        </form>
+        <div class="submit1" >
+            <button onclick="myFunction()">Sign-in</button>
+            <div id="click">Login SUCCESSFULL</div>
+        </div>
+    
+
+    </DIV>
+<!--    
+  <footer style="margin-top: 157px;">
+    <p>&copy; 2023 toastnotifications.com. All rights reserved.</p>
+  </footer>
+     -->
+</body>
+</html>

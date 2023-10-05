@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script>function myFunction() {
+        // Get the click DIV
+        var x = document.getElementById("click");
+      
+        // Add the "show" class to DIV
+        x.className = "show";
+      
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      }</script>
+</head>
+<body>
+    <div class="nav">
+        <div class="link" style="display: inline-block; margin-left: 75%;margin-top: 1.8%; text-decoration: none;"><a href="index.html">🏠Home </a></div>
+        <div class="link" style="display: inline-block; padding-left: 15px;">  <a href="login.html">🙎‍♂️Login</a></div>
+        <div class="link"  style="display: inline-block; padding-left: 15px;"><a href="contact.html">📞Contact  </a></div>
+        <div class="link" style="display: inline-block; text-decoration: none;padding-left: 15px;"><a href="aboutus.html">About us  </a></div>
+  
+    </div>
+    <div class="container">
+        <h1 class="mainn">Contact Us</h1>
+        <form>
+          <input class="asd"type="text" placeholder="Your Name" required>
+          <input class="asd" type="email" placeholder="Your Email" required>
+          <textarea  class="qwe" placeholder="Message" required></textarea>
+          <!-- <button class="btn" type="submit">Submit</button> -->
+        </form>
+        <div >
+            <button  class="btn" type="submit" onclick="myFunction()">Submit</button>
+            <div id="click">Successfully Submitted</div>
+        </div>
+        
+
+      </div>
+<!--       
+  <footer style="margin-top: 157px;">
+    <p>&copy; 2023 toastnotifications.com. All rights reserved.</p>
+  </footer> -->
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+    <script>function myFunction() {
+        // Get the click DIV
+        var x = document.getElementById("click");
+      
+        // Add the "show" class to DIV
+        x.className = "show";
+      
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      }</script>
+</head>
+<body>
+    <div class="nav">
+        <div class="link" style="display: inline-block; margin-left: 75%;margin-top: 1.8%; text-decoration: none;"><a href="index.html">🏠Home </a></div>
+        <div class="link" style="display: inline-block; padding-left: 15px;">  <a href="login.html">🙎‍♂️Login</a></div>
+        <div class="link"  style="display: inline-block; padding-left: 15px;"><a href="contact.html">📞Contact  </a></div>
+        <div class="link" style="display: inline-block; text-decoration: none;padding-left: 15px;"><a href="aboutus.html">About us  </a></div>
+  
+    </div>
+    <br>
+    <DIV class="page">
+    
+        <a href="login.html">
+            <div class="signup">
+                Sign-up
+            </div>
+        </a>
+        <a href="login1.html">
+        <div class="login">
+            Login
+        </div>
+        </a>
+        <hr color="black">
+        <p style="font-size: larger; margin-left: 5%;">Sign-up :</p>
+        <form action="" style="margin-left: 5%;">
+           name: <input type="text" placeholder="enter your name" required><br><br>
+           e-mail: <input type="email" placeholder="enter your email" required><br><br>
+           username: <input type="text" placeholder="username" required><br><br>
+           password: <input type="password" placeholder="password" required><br><br>
+           contact: <input type="number" placeholder="mobile number" required><br><br>
+            gender:
+            <input type="radio" name="gender" id=""> male
+            <input type="radio" name="gender" id=""> female <br><br>
+            profession:
+            <select name="profession" id="" >
+                <option value="">none of these</option>
+                <option value="">businessman</option>
+                <option value="">doctor</option>
+                <option value="">lawyer</option>
+                <option value="">job</option>
+                <option value="">student</option>
+                
+            </select>
+        </form>
+        <br>
+        <div class="submit">
+            <button onclick="myFunction()">Sign Up</button>
+            <div id="click">Sign Up SUCCESSFULL</div>
+        </div>
+    </DIV>
+<!--         
+  <footer style="margin-top: 157px;">
+    <p>&copy; 2023 toastnotifications.com. All rights reserved.</p>
+  </footer> -->
+
+   
+</body>
+</html>

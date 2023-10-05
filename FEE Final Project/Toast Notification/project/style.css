@@ -1,0 +1,366 @@
+body
+{
+  /* background-color: rgb(4, 4, 4); */
+  background-image: url(gha.jpg); 
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: monospace;
+  margin: 0;
+}
+.nav
+{
+  background-color:rgb(68, 65, 65);
+  border-radius: 20px;
+  height: 70px;
+  width: 100%;
+ font-size: larger;
+ opacity: 80%;
+ margin-top:5px;
+ 
+}
+.link
+{
+  opacity: 100%;
+  color: white;
+}
+.main
+{
+  height: min-content;
+  width: 50%;
+  background-color:#121212;
+  margin-left: 27%;
+  margin-right: 30%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+  /* opacity:0.5; */
+}
+.why{
+  height: min-content;
+  width: 30%;
+  background-color: #121212;
+  margin-left: 5%;
+  margin-right: 30%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 15px;
+  margin-top: 69px;
+  margin-bottom: 33px;
+  color:white;
+}
+.example{
+  height: min-content;
+  width: 32%;
+  
+  background-color: #121212;
+  margin-left: 5%;
+  margin-right: 30%;
+  border-radius: 5px;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 25px;
+  margin-top: -15px;
+  margin-bottom: 33px;
+  color:white;
+}
+.toast {
+  padding: 22px 31px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.success {
+  background-color: #5cb85c;
+}
+
+.warning {
+  background-color: #f0ad4e;
+}
+
+.error {
+  background-color: #d9534f;
+}
+.mainn
+{
+  height: min-content;
+  width: 54%;
+  color:white; 
+  background-color: #121212;
+  margin-left: 25%;
+  margin-right: 30%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content
+{
+  width: 62%;
+  height: max-content;
+  background-color: rgb(255, 253, 253);
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 30%;
+  border-radius: 5px;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 50%;
+  display:inline-block;
+}
+.content1
+{
+  width: 90%;
+  height: max-content;
+  background-color: rgb(255, 253, 253);
+
+  margin-left: 5%;
+  margin-right: 30%;
+  border-radius: 5px;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 50%;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+.page
+{ 
+  margin-left: 40%;
+  margin-top: 5%;
+  height: 450px;
+  width: 20%;
+  background-color: #1d2b3a;
+  border-radius: 15px;
+  color:#00dfc4;
+  font-weight: bolder;
+  font-size: large;
+}
+.signup
+{
+  margin-left: 22%;
+  margin-top:8% ;
+  width: 21%;
+  height: 5%;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.0em;
+
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.login
+{
+  margin-left: 10% ;
+  width: 20%;
+  height: 5%;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+.submit
+{
+  margin-left: 38% ;
+  margin-top: 4%;
+  width: 22%;
+  height: 5%;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+.tn1
+{
+  position: absolute;
+  margin-left: 9%;
+  margin-top: 8%;
+  background-color: none;
+  width: 20%;
+  text-align: center;
+  color: white;
+  right: 142px;
+  bottom: 144px;
+
+}
+.submit1
+{
+  margin-left: 38% ;
+  margin-top: -1%;
+  width: 20%;
+  height: 5%;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+.jain
+{
+  margin-left: 9%;
+  margin-top: 8%;
+  background-color: none;
+  width: 20%;
+  text-align: center;
+  color: white;
+
+}
+.goyal
+{
+  margin-top: 8%;
+  background-color:none;
+  width: 20%;
+  text-align: center;
+  color: white;
+}
+.gupta
+{
+  margin-top: 8%;
+  background-color: none;
+  width: 20%;
+  text-align: center;
+  color: white;
+}
+.garg
+{
+  
+  margin-top: 8%;
+  background-color: none;
+  width: 20%;
+  text-align: center;
+  color: white;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 125px;
+}
+
+
+
+form input.asd,
+form textarea.qwe{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button.btn{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 11px;
+}
+
+button.btn:hover {
+  background-color: #45a049;
+}
+
+
+.para
+{
+  font-size: larger;
+  font-weight: bold;
+ 
+}
+.login-div
+{
+  color:#00dfc4;
+  margin-left: 40%;
+  margin-top: 10%;
+  height: 232px;
+  width: 20%;
+  background-color: #1d2b3a;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: large;
+}
+a:link
+{
+  text-decoration: none;
+  color:none;
+}
+a:link ,a:visited
+{
+  color: inherit;
+}
+.about:hover{
+  transform: scale(1.12,1.12);
+}
+label, input, textarea{
+  border-radius: 5px;
+}
+
+
+#click {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: 400px; /* Divide value of min-width by 2 */
+  background-color: #f0cdcd; /* Black background color */
+  color: #2a2323; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the click */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+#click.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+button{
+  background-color: #444;
+  color: rgb(255, 253, 253);
+  padding: 6px 10px;
+  border: none;
+  border-radius: 10px;
+  
+}
+button:hover{
+  background-color: #777;
+  transform: scale(1.1,1.1);
+}
